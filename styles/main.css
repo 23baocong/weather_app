@@ -1,0 +1,134 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    margin: auto;
+}
+
+.container {
+    padding-top: 5.2rem;
+    background: linear-gradient(192.05deg, #47BFDF 0%, #4A91FF 100%);
+    border-radius: 1.5rem;
+    text-align: center;
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 3rem 8rem;
+}
+
+.select-city {
+    display: flex;
+    align-items: center;
+}
+
+.select-city img {
+    margin-right: 2rem;
+}
+
+select {
+    border: none;
+    background-color: transparent;
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 3.7rem;
+    color: #FFFFFF;
+    text-shadow: -2px 3px 1px rgba(0, 0, 0, 0.1);
+}
+
+select:hover {
+    color: black;
+    background-color: white;
+}
+
+.container>img {
+    margin-bottom: 9.5rem;
+    width: 141px;
+    height: 141px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.7rem 0 3rem;
+    background: rgba(255, 255, 255, 0.3);
+    border-radius: 20px;
+    margin: 0 3rem 10rem;
+    border: 1px solid white;
+}
+
+.date {
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    color: #FFFFFF;
+    text-shadow: -2px 3px 1px rgba(0, 0, 0, 0.1);
+}
+
+.temp {
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10rem;
+    color: #FFFFFF;
+    text-shadow: -4px 8px 50px rgba(0, 0, 0, 0.1);
+}
+
+.description {
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 2.4rem;
+    line-height: 3.7rem;
+    color: #FFFFFF;
+    text-shadow: -2px 3px 1px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.wind,
+.hum {
+    display: flex;
+    align-items: center;
+}
+
+.wind {
+    margin-bottom: 2.3rem;
+}
+
+.wind p,
+.hum p {
+    font-family: Overpass;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.8rem;
+    line-height: 2.8rem;
+    color: #FFFFFF;
+    text-shadow: -2px 3px 1px rgba(0, 0, 0, 0.1);
+}
+
+.wind img,
+.hum img {
+    margin-right: 2.3rem;
+}
+
+.wind p,
+.hum p {
+    margin-right: 2.3rem;
+}

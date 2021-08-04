@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <link rel="stylesheet" href="/styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Overpass&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="select-city">
+                <img src="/images/icon_location.png">
+                <select name="city" id="city" onchange="getSelectCity(this)">
+                    <option value="hanoi">Ha Noi</option>
+                    <option value="danang">Da Nang</option>
+                    <option value="london">London</option>
+                    <option value="tokyo">Tokyo</option>
+                    <option value="berlin">Berlin</option>
+                    <option value="seoul">Seoul</option>
+                    <option value="paris">Paris</option>
+                </select>
+            </div>
+            <img src="/images/icon_notify.png">
+        </div>
+        <img id="icon" src="">
+        <div id="info" class="info">
+        </div>
+    </div>
+    <script src="/script/weather.js"></script>
+</body>
+
+</html>
